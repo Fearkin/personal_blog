@@ -1,0 +1,56 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  font-color: black;
+  background-color: hsl(34, 78%, 91%);
+  overflow:auto;
+}
+
+
+div#header {
+  display: block;
+  border-bottom: 2px solid hsl(91,19%,33%);
+  margin-bottom: 30px;
+  padding: 12px 0px 10px 0px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  position: static;
+}
+
+.logo {
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.icons {
+    float: right;
+    width: 10%;
+    position: relative;
+    margin-top: -60px;
+}
+
+.post-entry {
+  margin-bottom: 2rem;
+}
+
+.post-entry h2 {
+  margin: 0.5rem;
+}
+
+.post-entry h2 a,
+.post-entry h2 a:visited {
+  color: blue;
+  text-decoration: none;
+}
+
+.post-entry p {
+  margin: 0;
+  font-weight: 400;
+}
+
+.post-entry h2 a:hover {
+  color: red;
+}
